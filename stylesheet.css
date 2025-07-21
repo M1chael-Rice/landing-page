@@ -2,22 +2,52 @@
     outline: .5px solid red;
 }
 
+.blinker-light {
+  font-family: "Blinker", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.blinker-regular {
+  font-family: "Blinker", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.blinker-black {
+  font-family: "Blinker", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
 body {
     margin: 0;
+    justify-content: center;
 }
 
 .nav-bar {
-    background-color: #1F2937;
+    background-color: #7de2d1;
     color: white;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     height: 100px;
+    padding: 0 150px 0 150px;
+}
+
+.logo {
+    width: 100px;
 }
 
 .options {
     list-style-type: none;
     display: flex;
-    gap: 20px;
+    gap: 40px;
     padding: 0;
+    font-family: "Blinker", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #50504f;
+    flex-shrink: 0;
 }
