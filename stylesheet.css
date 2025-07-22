@@ -1,6 +1,6 @@
-/* * {
+* {
     outline: .5px solid red;
-} */
+}
 
 .blinker-light {
   font-family: "Blinker", sans-serif;
@@ -60,6 +60,7 @@ body {
     background-color: #7de2d1;
     color: #3d3d3d;
     padding: 0 150px 25px 150px;
+    gap: 100px;
 }
 
 .left-text {
