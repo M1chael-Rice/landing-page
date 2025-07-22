@@ -28,7 +28,7 @@ body {
 
 .nav-bar {
     background-color: #7de2d1;
-    color: white;
+    /* color: white; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -51,4 +51,12 @@ body {
     font-size: 20px;
     color: #50504f;
     flex-shrink: 0;
+    opacity: 50%;
+}
+
+.introduction {
+    display: flex;
+    justify-content: center;
+    background-color: #7de2d1;
+    color: #3d3d3d;
 }
