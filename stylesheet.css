@@ -1,6 +1,6 @@
-* {
+/* * {
     outline: .5px solid red;
-}
+} */
 
 .blinker-light {
   font-family: "Blinker", sans-serif;
@@ -27,40 +27,40 @@ body {
 }
 
 .nav-bar {
-    background-color: #7de2d1;
-    /* color: white; */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 100px;
-    padding: 0 150px 0 150px;
+  background-color: #7de2d1;
+  /* color: white; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0 150px 0 150px;
 }
 
 .logo {
-    width: 100px;
+  width: 100px;
 }
 
 .options {
-    list-style-type: none;
-    display: flex;
-    gap: 40px;
-    padding: 0;
-    font-family: "Blinker", sans-serif;
-    font-weight: 300;
-    font-size: 20px;
-    color: #50504f;
-    flex-shrink: 0;
-    opacity: 50%;
+  list-style-type: none;
+  display: flex;
+  gap: 40px;
+  padding: 0;
+  font-family: "Blinker", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #50504f;
+  flex-shrink: 0;
+  opacity: 50%;
 }
 
 .introduction {
-    display: flex;
-    justify-content: space-between;
-    font-family: "Blinker", sans-serif;
-    background-color: #7de2d1;
-    color: #3d3d3d;
-    padding: 0 150px 25px 150px;
-    gap: 100px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Blinker", sans-serif;
+  background-color: #7de2d1;
+  color: #3d3d3d;
+  padding: 25px 150px 50px 150px;
+  gap: 100px;
 }
 
 .left-text {
@@ -92,4 +92,43 @@ h1 {
   font-size: 16px;
   font-family: "Blinker", sans-serif;
   font-weight: 400;
+}
+
+.headshots {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 150px 50px 150px;
+  font-family: "Blinker", sans-serif;
+  font-size: 30px;
+}
+
+.cards {
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+}
+
+.icons {
+  width: 150px;
+  border-radius: 10px;
+  border: 3px solid #3d3d3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+
+.bios {
+  padding-bottom: 10px;
 }
