@@ -137,13 +137,13 @@ h1 {
   justify-content: center;
   align-items: center;
   font-family: "Blinker", sans-serif;
-  margin: 200px;
+  margin: 94px 250px;
   align-items: flex-end;
 }
 
 .quote-1 {
   display: flex;
-  font-size: 48px;
+  font-size: 38px;
   text-align: left;
   font-weight: 200;
 }
