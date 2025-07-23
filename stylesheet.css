@@ -20,6 +20,19 @@
   font-style: normal;
 }
 
+a:link,
+a:visited,
+a:active {
+  color: #50504f;
+  text-decoration: none;
+  opacity: 50%;
+}
+
+a:hover {
+  color: #3d3d3d;
+  opacity: 100%;
+}
+
 body {
     margin: 0;
     justify-content: center;
@@ -48,7 +61,6 @@ body {
   font-size: 20px;
   color: #50504f;
   flex-shrink: 0;
-  opacity: 50%;
 }
 
 .introduction {
@@ -79,7 +91,7 @@ h1 {
   padding-bottom: 20px;
 }
 
-.button {
+#button {
   background-color: #f0f3bd;
   border-radius: 5px;
   color: #8f2d56;
@@ -90,6 +102,7 @@ h1 {
   font-size: 16px;
   font-family: "Blinker", sans-serif;
   font-weight: 400;
+  opacity: 100%;
 }
 
 .headshots {
@@ -136,8 +149,20 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: 400px;
   font-family: "Blinker", sans-serif;
+  padding: 20px 0;
+}
+
+.dp {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 100px;
+  border: 3px solid #3d3d3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
 }
 
 .quote {
@@ -172,13 +197,13 @@ h1 {
   padding: 0 50px;
   width: 700px;
   height: 125px;
-  background: #8f2d56;
+  background: #7de2d1;
   border-radius: 10px;
   font-family: "Blinker", sans-serif;
 }
 
 .wording {
-  color: white;
+  color:#3d3d3d;
 }
 
 .top {
@@ -187,10 +212,10 @@ h1 {
   font-weight: 700;
 }
 
-.get-in-touch {
-  border: 3px solid white;
+#get-in-touch {
+  border: 3px solid #3d3d3d;
   border-radius: 5px;
-  color: white;
+  color: #3d3d3d;
   padding: 10px 40px;
   text-align: center;
   text-decoration: none;
@@ -198,6 +223,7 @@ h1 {
   font-size: 16px;
   font-family: "Blinker", sans-serif;
   font-weight: 400;
+  opacity: 100%;
 }
 
 .footer {
@@ -205,6 +231,7 @@ h1 {
   justify-content: center;
   align-items: center;
   padding: 25px 0;
-  background-color: #7de2d1;
+  background-color:#3d3d3d;
+  color: white;
   font-family: "Blinker", sans-serif;
 }
