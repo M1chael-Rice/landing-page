@@ -132,6 +132,7 @@ h1 {
 }
 
 .quote {
+  /* background-color: #7de2d1; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -139,6 +140,7 @@ h1 {
   font-family: "Blinker", sans-serif;
   margin: 94px 250px;
   align-items: flex-end;
+  
 }
 
 .quote-1 {
