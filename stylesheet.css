@@ -1,6 +1,6 @@
-/* * {
+* {
     outline: .5px solid red;
-} */
+}
 
 .blinker-light {
   font-family: "Blinker", sans-serif;
@@ -20,7 +20,6 @@
   font-style: normal;
 }
 
-
 body {
     margin: 0;
     justify-content: center;
@@ -28,7 +27,6 @@ body {
 
 .nav-bar {
   background-color: #7de2d1;
-  /* color: white; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -131,4 +129,21 @@ h1 {
 
 .bios {
   padding-bottom: 10px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Blinker", sans-serif;
+  margin: 200px;
+  align-items: flex-end;
+}
+
+.quote-1 {
+  display: flex;
+  font-size: 48px;
+  text-align: left;
+  font-weight: 200;
 }
